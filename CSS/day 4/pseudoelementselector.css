@@ -1,0 +1,29 @@
+p::first-letter{
+    background-color: aqua;
+}
+p::first-line{
+    background-color: red;
+}
+section::selection{
+    background-color: hotpink;
+    color: cadetblue;
+}
+ol>li::marker{
+    content: "😂";
+}
+ol>li+li::marker{
+    content: "👌";
+}
+ol>li+li+li::marker{
+    content: '❤️';
+}
+aside::before{
+    content: "(●'◡'●)";
+}
+aside::after{
+    content:"╰(*°▽°*)╯"
+}
+input::placeholder{
+    background-color: aqua;
+    color: hotpink;
+}

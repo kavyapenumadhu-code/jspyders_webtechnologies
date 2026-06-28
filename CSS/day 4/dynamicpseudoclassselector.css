@@ -1,0 +1,25 @@
+a:link{
+    color: hotpink;
+}
+a:visited{
+    color: aqua;
+}
+a:active{
+    color: black;
+}
+.c2:focus{
+    height: 40px;
+    width: 200px;
+    background-color: hotpink;
+}
+.c1:checked{
+    height: 40px;
+    width: 40px;
+    /* background-color: magenta; */
+    accent-color: magenta;
+
+}
+p:hover{
+    background-color: magenta;
+    color: yellow;
+}

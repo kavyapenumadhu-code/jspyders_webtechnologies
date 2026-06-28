@@ -1,0 +1,11 @@
+#d1{
+    background-color: aqua;
+}
+.c1{
+    background-color: hotpink;
+}
+p{
+    background-color: red;
+}
+/* id has more priority */
+/* class name has second priority  */
